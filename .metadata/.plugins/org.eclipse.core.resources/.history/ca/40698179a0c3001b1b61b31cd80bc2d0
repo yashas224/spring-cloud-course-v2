@@ -1,0 +1,10 @@
+package com.microservices.limitsservice.controller;
+
+@RestController
+public class LimitsController {
+
+	@GetMapping("/limits")
+	public Limits retrieveLimits() {
+		return new Limits(1, 1000);
+	}
+}
