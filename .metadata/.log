@@ -3989,3 +3989,110 @@ java.net.SocketException: Connection reset
 	at org.eclipse.eclemma.internal.core.MemoryExecutionDataSource.readFrom(MemoryExecutionDataSource.java:68)
 	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:114)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2021-06-03 03:18:48.703
+!MESSAGE Full project indexing required:
+  [+] E:\maven_local_repo\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar
+  [+] E:\maven_local_repo\commons-io\commons-io\2.2\commons-io-2.2.jar
+  [+] E:\maven_local_repo\io\github\openfeign\feign-core\10.12\feign-core-10.12.jar
+  [+] E:\maven_local_repo\io\github\openfeign\feign-slf4j\10.12\feign-slf4j-10.12.jar
+  [+] E:\maven_local_repo\io\github\openfeign\form\feign-form-spring\3.8.0\feign-form-spring-3.8.0.jar
+  [+] E:\maven_local_repo\io\github\openfeign\form\feign-form\3.8.0\feign-form-3.8.0.jar
+  [+] E:\maven_local_repo\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar
+  [+] E:\maven_local_repo\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar
+  [+] E:\maven_local_repo\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar
+  [+] E:\maven_local_repo\org\springframework\boot\spring-boot-starter-aop\2.5.0\spring-boot-starter-aop-2.5.0.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-commons\3.0.3\spring-cloud-commons-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-context\3.0.3\spring-cloud-context-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-openfeign-core\3.0.3\spring-cloud-openfeign-core-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-starter-openfeign\3.0.3\spring-cloud-starter-openfeign-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-starter\3.0.3\spring-cloud-starter-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\security\spring-security-crypto\5.5.0\spring-security-crypto-5.5.0.jar
+  [+] E:\maven_local_repo\org\springframework\security\spring-security-rsa\1.0.10.RELEASE\spring-security-rsa-1.0.10.RELEASE.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.suggestRebuild(ProjectTypesIndex.java:444)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.rebuildIndex(TypesIndexService.java:120)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:57)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:63)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.elementChanged(TypesIndexService.java:49)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1720)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1554)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1530)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2246)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2136)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2021-06-03 03:20:26.472
+!MESSAGE Full project indexing required:
+  [+] E:\maven_local_repo\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar
+  [+] E:\maven_local_repo\commons-io\commons-io\2.2\commons-io-2.2.jar
+  [+] E:\maven_local_repo\io\github\openfeign\feign-core\10.12\feign-core-10.12.jar
+  [+] E:\maven_local_repo\io\github\openfeign\feign-slf4j\10.12\feign-slf4j-10.12.jar
+  [+] E:\maven_local_repo\io\github\openfeign\form\feign-form-spring\3.8.0\feign-form-spring-3.8.0.jar
+  [+] E:\maven_local_repo\io\github\openfeign\form\feign-form\3.8.0\feign-form-3.8.0.jar
+  [+] E:\maven_local_repo\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar
+  [+] E:\maven_local_repo\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar
+  [+] E:\maven_local_repo\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar
+  [+] E:\maven_local_repo\org\springframework\boot\spring-boot-starter-aop\2.5.0\spring-boot-starter-aop-2.5.0.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-commons\3.0.3\spring-cloud-commons-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-context\3.0.3\spring-cloud-context-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-openfeign-core\3.0.3\spring-cloud-openfeign-core-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-starter-openfeign\3.0.3\spring-cloud-starter-openfeign-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\cloud\spring-cloud-starter\3.0.3\spring-cloud-starter-3.0.3.jar
+  [+] E:\maven_local_repo\org\springframework\security\spring-security-crypto\5.5.0\spring-security-crypto-5.5.0.jar
+  [+] E:\maven_local_repo\org\springframework\security\spring-security-rsa\1.0.10.RELEASE\spring-security-rsa-1.0.10.RELEASE.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.suggestRebuild(ProjectTypesIndex.java:444)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.rebuildIndex(TypesIndexService.java:120)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:57)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.process(TypesIndexService.java:63)
+	at org.eclipse.recommenders.internal.types.rcp.TypesIndexService.elementChanged(TypesIndexService.java:49)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$3.run(DeltaProcessor.java:1730)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1720)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1554)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1530)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyAndFire(DeltaProcessor.java:2246)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2136)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:473)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:795)
+	at org.eclipse.jdt.core.JavaCore.setClasspathContainer(JavaCore.java:5750)
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.updateClasspath(BuildPathManager.java:196)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:191)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
