@@ -132,7 +132,6 @@ INDEX VERSION 1.130+E:\spring-cloud-course-v2\.metadata\.plugins\org.eclipse.jdt
 1299004887.index
 2617707921.index
 2628359506.index
-1871985630.index
 237032948.index
 3924432333.index
 3645777679.index
