@@ -6,7 +6,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.microservices.currencyconversionservice.dto.CurrencyConversion;
 
-@FeignClient(name = "currency-exchange", url = "http://localhost:8000")
+// if a service discovery is not happening 
+//@FeignClient(name = "currency-exchange", url = "http://localhost:8000")
+// if using a service discovery
+@FeignClient(name = "currency-exchange")
 public interface CurrencyExchangeProxy {
 
 	@GetMapping("/currency-exchange/from/{from}/to/{to}")

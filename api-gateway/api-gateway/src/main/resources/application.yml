@@ -1,0 +1,71 @@
+eureka:
+   instance:
+      hostname: localhost
+      prefer-ip-address: true
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka
+server:
+   port: 8765
+spring:
+   application:
+      name: api-gateway
+   cloud:
+     gateway:
+       httpclient:
+           wiretap: true
+       httpserver:
+           wiretap: true
+       discovery:
+         locator:
+           enabled: true
+           lower-case-service-id: true     
+       routes:
+       - id: currency-conversion
+         uri: lb://CURRENCY-CONVERSION
+         predicates:
+         - Path=/convert/**
+         filters:
+         - RewritePath=/convert(?<segment>/?.*), $\{segment}
+       - id: test-id
+         uri: https://httpbin.org
+         predicates:
+         - Path=/get
+         filters:
+         - AddRequestHeader=myHeader, yashas
+         - AddRequestParameter=param, samaga      
+       - id: exchangeService
+         uri: lb://currency-exchange
+         predicates:
+         - Path=/exchange/**
+         filters:
+         - RewritePath=/exchange(?<segment>/?.*), $\{segment}
+       - id: currency-conversion-change-path-trial
+         uri: lb://CURRENCY-CONVERSION
+         predicates:
+         - Path=/currency-conversion-new/**
+         filters:
+         - RewritePath=/currency-conversion-new(?<segment>/?.*), /currency-converter-feign/$\{segment}
+         
+management:
+  endpoints:
+    web:
+      expose: "*"
+      exposure:
+        include: "*"
+        
+        
+        
+        
+logging:
+  level:
+    reactor:
+      netty: INFO
+    org:
+      springframework:
+        cloud:
+          gateway: TRACE
+
+        
+
+         
