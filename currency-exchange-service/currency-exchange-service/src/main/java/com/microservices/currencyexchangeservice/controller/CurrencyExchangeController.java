@@ -1,5 +1,7 @@
 package com.microservices.currencyexchangeservice.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +13,7 @@ import com.microservices.currencyexchangeservice.repositry.CurrencyExchangeRepos
 
 @RestController
 public class CurrencyExchangeController {
-
+	Logger logger = LoggerFactory.getLogger(CurrencyExchangeController.class);
 	@Value("${server.port}")
 	String port;
 
@@ -25,6 +27,7 @@ public class CurrencyExchangeController {
 			throw new RuntimeException("unable to find data for parms");
 		}
 		obj.setEnvironment(port);
+		logger.info("CurrencyExchangeController called with parameters {} {}", from, to);
 		return obj;
 
 	}

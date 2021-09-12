@@ -1,0 +1,70 @@
+version: '3'
+services:
+  currency-exchange:
+    image: yashassamaga/msv2-currency-exchange-service:0.0.1-SNAPSHOT
+    ports:
+      - 8000:8000
+    mem_limit: 700m
+    environment:
+      - EUREKA.CLIENT.SERVICEURL.DEFAULTZONE =http://naming-server:8761/eureka
+      - spring.zipkin.baseUrl=http://zipkin-server:9411/
+      - RABBIT_URI=amqp://guest:guest@rabbitmq:5672
+      - SPRING_RABBITMQ_HOST=rabbitmq
+      - SPRING_ZIPKIN_SENDER_TYPE=rabbit
+    depends_on:
+      - naming-server
+      - rabbitmq
+
+  currency-conversion:
+    image: yashassamaga/msv2-currency-conversion-service:0.0.1-SNAPSHOT
+    ports:
+      - 8100:8100
+    mem_limit: 700m
+    environment:
+      - eureka.client.serviceUrl.defaultZone =http://naming-server:8761/eureka
+      - spring.zipkin.baseUrl=http://zipkin-server:9411/
+      - RABBIT_URI=amqp://guest:guest@rabbitmq:5672
+      - SPRING_RABBITMQ_HOST=rabbitmq
+      - SPRING_ZIPKIN_SENDER_TYPE=rabbit
+
+    depends_on:
+      - naming-server
+      - rabbitmq
+      
+  api-gateway:
+    image: yashassamaga/msv2-api-gateway:0.0.1-SNAPSHOT
+    ports:
+      - 8765:8765
+    mem_limit: 700m
+    environment:
+      - eureka.client.serviceUrl.defaultZone =http://naming-server:8761/eureka
+      - spring.zipkin.baseUrl=http://zipkin-server:9411/
+      - RABBIT_URI=amqp://guest:guest@rabbitmq:5672
+      - SPRING_RABBITMQ_HOST=rabbitmq
+      - SPRING_ZIPKIN_SENDER_TYPE=rabbit
+
+    depends_on:
+      - naming-server
+      - rabbitmq
+
+  naming-server:
+    image: yashassamaga/msv2-naming-server:0.0.1-SNAPSHOT
+    ports:
+      - 8761:8761
+    mem_limit: 700m
+    
+  zipkin-server:
+    image: openzipkin/zipkin
+    ports:
+      - 9411:9411
+    restart: always
+    environment:
+      - RABBIT_URI=amqp://guest:guest@rabbitmq:5672
+    depends_on:
+      - rabbitmq
+      
+  rabbitmq:
+    image: rabbitmq:3.5.3-management
+    ports:
+      - 5672:5672
+    restart: always
