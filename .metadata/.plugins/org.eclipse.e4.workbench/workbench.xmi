@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_sBYB4BQPEey9WfQgYmZm2w" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_sBYo8BQPEey9WfQgYmZm2w" bindingContexts="_sBbGAxQPEey9WfQgYmZm2w">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyExchangeController.java&quot; tooltip=&quot;currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/controller/CurrencyExchangeController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/controller/CurrencyExchangeController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CircuitBreakerController.java&quot; tooltip=&quot;currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/controller/CircuitBreakerController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/controller/CircuitBreakerController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyConversionController.java&quot; tooltip=&quot;currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/controller/CurrencyConversionController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/controller/CurrencyConversionController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.dadacoalition.yedit.editor.YEdit&quot; name=&quot;application.yml&quot; tooltip=&quot;api-gateway/src/main/resources/application.yml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/api-gateway/src/main/resources/application.yml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;currency-conversion-service/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-conversion-service/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CustomGlobalFilter.java&quot; tooltip=&quot;api-gateway/src/main/java/com/microservices/apigateway/filter/CustomGlobalFilter.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/api-gateway/src/main/java/com/microservices/apigateway/filter/CustomGlobalFilter.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;api-gateway/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/api-gateway/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;currency-conversion-service/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-conversion-service/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyExchangeProxy.java&quot; tooltip=&quot;currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/util/CurrencyExchangeProxy.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/util/CurrencyExchangeProxy.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;currency-exchange-service/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;naming-server/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/naming-server/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;naming-server/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/naming-server/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;currency-exchange-service/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyExchange.java&quot; tooltip=&quot;currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/entity/CurrencyExchange.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/entity/CurrencyExchange.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyExchangeRepositry.java&quot; tooltip=&quot;currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/repositry/CurrencyExchangeRepositry.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/repositry/CurrencyExchangeRepositry.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;currency-exchange-service/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyExchangeController.java&quot; tooltip=&quot;currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/controller/CurrencyExchangeController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/controller/CurrencyExchangeController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CircuitBreakerController.java&quot; tooltip=&quot;currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/controller/CircuitBreakerController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/controller/CircuitBreakerController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyConversionController.java&quot; tooltip=&quot;currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/controller/CurrencyConversionController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/controller/CurrencyConversionController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.dadacoalition.yedit.editor.YEdit&quot; name=&quot;application.yml&quot; tooltip=&quot;api-gateway/src/main/resources/application.yml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/api-gateway/src/main/resources/application.yml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;currency-conversion-service/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-conversion-service/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CustomGlobalFilter.java&quot; tooltip=&quot;api-gateway/src/main/java/com/microservices/apigateway/filter/CustomGlobalFilter.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/api-gateway/src/main/java/com/microservices/apigateway/filter/CustomGlobalFilter.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;api-gateway/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/api-gateway/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;currency-conversion-service/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-conversion-service/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyExchangeProxy.java&quot; tooltip=&quot;currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/util/CurrencyExchangeProxy.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-conversion-service/src/main/java/com/microservices/currencyconversionservice/util/CurrencyExchangeProxy.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;currency-exchange-service/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;naming-server/src/main/resources/application.properties&quot;>&#xD;&#xA;&lt;persistable path=&quot;/naming-server/src/main/resources/application.properties&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;naming-server/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/naming-server/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyExchange.java&quot; tooltip=&quot;currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/entity/CurrencyExchange.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/entity/CurrencyExchange.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CurrencyExchangeRepositry.java&quot; tooltip=&quot;currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/repositry/CurrencyExchangeRepositry.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/currency-exchange-service/src/main/java/com/microservices/currencyexchangeservice/repositry/CurrencyExchangeRepositry.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>ModelMigrationProcessor.001</tags>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_sBYo8BQPEey9WfQgYmZm2w" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_sBYo8RQPEey9WfQgYmZm2w" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -73,8 +73,9 @@
           <tags>persp.showIn:org.eclipse.eclemma.ui.CoverageView</tags>
           <tags>persp.newWizSC:org.eclipse.jpt.jpa.ui.wizard.newJpaProject</tags>
           <tags>persp.perspSC:org.eclipse.jpt.ui.jpaPerspective</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_sBYo9BQPEey9WfQgYmZm2w" selectedElement="_sBYo-hQPEey9WfQgYmZm2w" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_sBYo9BQPEey9WfQgYmZm2w" selectedElement="_sBYo9RQPEey9WfQgYmZm2w" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_sBYo9RQPEey9WfQgYmZm2w" elementId="topLeft" containerData="2500" selectedElement="_sBYo9hQPEey9WfQgYmZm2w">
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_sBYo9hQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_sBZ3FBQPEey9WfQgYmZm2w"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_sBYo9xQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_sBZ3cRQPEey9WfQgYmZm2w"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_sBYo-BQPEey9WfQgYmZm2w" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_sBZ3chQPEey9WfQgYmZm2w"/>
@@ -137,11 +138,9 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_sBZQvxQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.editorss" selectedElement="_sBZQwBQPEey9WfQgYmZm2w">
-      <children xsi:type="basic:PartStack" xmi:id="_sBZQwBQPEey9WfQgYmZm2w" elementId="PartStack@7dd3981e" selectedElement="_sBZ3EBQPEey9WfQgYmZm2w">
+      <children xsi:type="basic:PartStack" xmi:id="_sBZQwBQPEey9WfQgYmZm2w" elementId="PartStack@7dd3981e" selectedElement="_Ng31IBi-EeyTduUmfE8sTg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_sBZQwRQPEey9WfQgYmZm2w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="currency-conversion-service/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;currency-conversion-service/pom.xml&quot; title=&quot;currency-conversion-service/pom.xml&quot; tooltip=&quot;currency-conversion-service/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/currency-conversion-service/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -381,7 +380,6 @@
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
           <menus xsi:type="menu:PopupMenu" xmi:id="_sBZ3ERQPEey9WfQgYmZm2w" elementId="#CompilationUnitEditorContext">
             <tags>menuContribution:popup</tags>
             <tags>popup:#CompilationUnitEditorContext</tags>
@@ -399,6 +397,12 @@
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
+        <children xsi:type="basic:Part" xmi:id="_Ng31IBi-EeyTduUmfE8sTg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="currency-exchange-service/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;currency-exchange-service/pom.xml&quot; title=&quot;currency-exchange-service/pom.xml&quot; tooltip=&quot;currency-exchange-service/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/currency-exchange-service/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_sBZ3FBQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.png" tooltip="" closeable="true">
@@ -407,6 +411,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;1&quot; currentWorkingSetName=&quot;Aggregate for window 1622648338544&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_sBZ3FRQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -606,43 +612,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ38hQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ38xQPEey9WfQgYmZm2w" elementId="new.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ39BQPEey9WfQgYmZm2w" elementId="newWizardDropDown">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ39RQPEey9WfQgYmZm2w" elementId="new.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ39hQPEey9WfQgYmZm2w" elementId="save.group" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ39xQPEey9WfQgYmZm2w" elementId="save">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ3-BQPEey9WfQgYmZm2w" elementId="saveAll">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ3-RQPEey9WfQgYmZm2w" elementId="save.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_sBZ3-hQPEey9WfQgYmZm2w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sBjoGRQPEey9WfQgYmZm2w"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ3-xQPEey9WfQgYmZm2w" elementId="print.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ3_BQPEey9WfQgYmZm2w" elementId="build.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ3_RQPEey9WfQgYmZm2w" elementId="build">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ3_hQPEey9WfQgYmZm2w" elementId="build.ext" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ3_xQPEey9WfQgYmZm2w" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9RMPkBi_Eey5sZ1wxBv6Lg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_sBjoGRQPEey9WfQgYmZm2w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4ABQPEey9WfQgYmZm2w" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -650,93 +620,21 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4PBQPEey9WfQgYmZm2w" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4PRQPEey9WfQgYmZm2w" elementId="debug">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4PhQPEey9WfQgYmZm2w" elementId="org.eclipse.debug.internal.ui.actions.DebugDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4PxQPEey9WfQgYmZm2w" elementId="org.eclipse.debug.internal.ui.actions.RunDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4QBQPEey9WfQgYmZm2w" elementId="org.eclipse.eclemma.ui.actions.CoverageDropDownAction">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4QRQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4QhQPEey9WfQgYmZm2w" elementId="org.eclipse.jst.j2ee.J2eeMainActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4QxQPEey9WfQgYmZm2w" elementId="J2EEMain">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4RBQPEey9WfQgYmZm2w" elementId="org.eclipse.jst.j2ee.internal.actions.NewJavaEEProject">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4RRQPEey9WfQgYmZm2w" elementId="org.eclipse.jst.j2ee.internal.actions.NewJavaEEArtifact">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4RhQPEey9WfQgYmZm2w" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4RxQPEey9WfQgYmZm2w" elementId="Search">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4SBQPEey9WfQgYmZm2w" elementId="openType">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4SRQPEey9WfQgYmZm2w" elementId="org.eclipse.mylyn.tasks.ui.openTask">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4ShQPEey9WfQgYmZm2w" elementId="org.eclipse.search.OpenSearchDialogPage">
-          <tags>Opaque</tags>
-        </children>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_sBZ4SxQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_sBZ4SxQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4TBQPEey9WfQgYmZm2w" elementId="Presentation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4TRQPEey9WfQgYmZm2w" elementId="org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4ThQPEey9WfQgYmZm2w" elementId="org.eclipse.jdt.ui.edit.text.java.toggleMarkOccurrences">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4TxQPEey9WfQgYmZm2w" elementId="org.eclipse.mylyn.java.ui.editor.folding.auto">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4UBQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.toggleWordWrap">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4URQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.toggleBlockSelectionMode">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4UhQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.toggleShowWhitespaceCharacters">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4UxQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4VBQPEey9WfQgYmZm2w" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4VRQPEey9WfQgYmZm2w" elementId="browser">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4VhQPEey9WfQgYmZm2w" elementId="org.eclipse.wst.server.ui.internal.webbrowser.action.open">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4VxQPEey9WfQgYmZm2w" elementId="org.eclipse.wst.ws.explorer.explorer">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4WBQPEey9WfQgYmZm2w" elementId="additions">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4WRQPEey9WfQgYmZm2w" elementId="org.eclipse.wst.ws.internal.explorer.action.LaunchWSEAction">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4WhQPEey9WfQgYmZm2w" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -744,39 +642,9 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4XBQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4XRQPEey9WfQgYmZm2w" elementId="history.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4XhQPEey9WfQgYmZm2w" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4XxQPEey9WfQgYmZm2w" elementId="backardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4YBQPEey9WfQgYmZm2w" elementId="forwardHistory">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4YRQPEey9WfQgYmZm2w" elementId="pin.group">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_sBZ4YhQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sBjC3xQPEey9WfQgYmZm2w"/>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4YxQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4ZBQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4ZRQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition">
-          <tags>Opaque</tags>
-        </children>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_sBZ4ZhQPEey9WfQgYmZm2w" elementId="org.eclipse.m2e.editor.MavenPomEditor" visible="false">
-        <tags>Draggable</tags>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_9RSWMBi_Eey5sZ1wxBv6Lg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_sBjC3xQPEey9WfQgYmZm2w"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4ZxQPEey9WfQgYmZm2w" elementId="org.dadacoalition.yedit.editor.YEdit" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_sBZ4aBQPEey9WfQgYmZm2w" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4aRQPEey9WfQgYmZm2w" elementId="org.eclipse.jdt.ui.PropertiesFileEditor" visible="false">
@@ -792,12 +660,6 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_sBZ4bhQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.workbench.help" visible="false">
         <tags>Draggable</tags>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4bxQPEey9WfQgYmZm2w" elementId="group.help">
-          <tags>Opaque</tags>
-        </children>
-        <children xsi:type="menu:DirectToolItem" xmi:id="_sBZ4cBQPEey9WfQgYmZm2w" elementId="group.application" visible="false">
-          <tags>Opaque</tags>
-        </children>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_sBZ4cRQPEey9WfQgYmZm2w" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>
@@ -2111,6 +1973,23 @@
     <tags>View</tags>
     <tags>categoryTag:Server</tags>
   </descriptors>
+  <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
+    <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:PerspectiveSpacer</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_8tJPcF9tEeO-yojH_y4TJA" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
+      <tags>move_after:Spacer Glue</tags>
+      <tags>HIDEABLE</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+    <children xsi:type="menu:ToolControl" xmi:id="_9LgmcF9tEeO-yojH_y4TJA" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <tags>glue</tags>
+      <tags>move_after:SearchField</tags>
+      <tags>SHOW_RESTORE_MENU</tags>
+    </children>
+  </trimContributions>
   <commands xmi:id="_sBeImBQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.window.customizePerspective" contributorURI="platform:/plugin/org.eclipse.platform"/>
   <commands xmi:id="_sBeImRQPEey9WfQgYmZm2w" elementId="org.eclipse.jdt.ui.correction.inlineLocal.assist" commandName="Quick Assist - Inline local variable" description="Invokes quick assist and selects 'Inline local variable'" category="_sBjpyxQPEey9WfQgYmZm2w"/>
   <commands xmi:id="_sBeImhQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.edit.text.select.pageUp" commandName="Select Page Up" description="Select to the top of the page" category="_sBjpnRQPEey9WfQgYmZm2w"/>
@@ -3418,7 +3297,7 @@
   <addons xmi:id="_sBjplRQPEey9WfQgYmZm2w" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_sBjplhQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_sBjplxQPEey9WfQgYmZm2w" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_sBjpmBQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_8lAfABi_Eey5sZ1wxBv6Lg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_sBjpmRQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_sBjpmhQPEey9WfQgYmZm2w" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_sBjpmxQPEey9WfQgYmZm2w" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>
