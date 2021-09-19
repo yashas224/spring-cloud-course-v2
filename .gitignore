@@ -2,5 +2,5 @@
 /.recommenders/**
 /.metadata/
 /.recommenders/
-/.metadata/
+/.metadata/**
 .metadata/**
